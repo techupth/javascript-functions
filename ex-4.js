@@ -1,5 +1,3 @@
-// Start coding here
-
 function add(a, b) {
   return a + b;
 }
@@ -16,6 +14,19 @@ function multiply(a, b) {
   return a * b;
 }
 
-// Start coding here
+let calculator = {
+  add: (a, b) => {
+    return a + b;
+  },
+  subtract: (a, b) => {
+    return a - b;
+  },
+  divide: (a, b) => {
+    return a / b;
+  },
+  multiply: (a, b) => {
+    return a * b;
+  },
+};
 
-let calculator = {};
+console.log(calculator.add(10, 20));

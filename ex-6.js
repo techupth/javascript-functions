@@ -1,5 +1,9 @@
 function isPlainObject(obj) {
-  // Start coding here
+  let isArray = Array.isArray(obj);
+  let isNull = Object.is(obj, null);
+  let isRealObject = typeof obj === "object";
+
+  return isRealObject && !isArray && !isNull;
 }
 
 let result1 = isPlainObject({ name: "John" });

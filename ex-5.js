@@ -1,5 +1,5 @@
 const findMinNumber = (a, b) => {
-  // Start coding here
+  return Math.min(a, b);
 };
 
 const minNumber = findMinNumber(10, 20);
